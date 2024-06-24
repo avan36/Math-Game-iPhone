@@ -13,6 +13,7 @@ struct ContentView: View {
     @State private var options = [0,0,0]
     @State private var score = 0
     @State private var correctAnswer = 0
+    @State private var tries = 0
     
     var body: some View {
         NavigationView {
@@ -36,13 +37,17 @@ struct ContentView: View {
                     .clipShape(.rect(cornerRadius: 20))
                     .foregroundColor(.white)
                 }
-                Text("Score: \(score)")
+                Text(tries == 0 ? "Score: 0   Let's start!"
+                     : tries > 1 ?
+                     "Score: \(score) / \(tries) tries"
+                     : "Score: \(score) / \(tries) try")
                     .font(.headline)
                     .padding()
                 
+                
                 Spacer()
             }
-            .navigationTitle("Multiplcation!")
+            .navigationTitle("Multiplication!")
             .onAppear {
                 generateAnswers()
             }
@@ -55,6 +60,8 @@ struct ContentView: View {
         if tapped == correctAnswer {
             score += 1
         }
+        tries += 1
+        
         generateAnswers()
     }
     
