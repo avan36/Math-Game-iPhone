@@ -31,12 +31,16 @@ struct ContentView: View {
                     } label: {
                         Text("\(options[number])")
                             .font(.largeTitle)
+                        
                     }
-                    .frame(width: 100, height: 100)
+                    .frame(width: 125, height: 125)
                     .background(.blue.opacity(0.7))
                     .clipShape(.rect(cornerRadius: 20))
                     .foregroundColor(.white)
+
                 }
+                Spacer()
+                
                 Text(tries == 0 ? "Score: 0   Let's start!"
                      : tries > 1 ?
                      "Score: \(score) / \(tries) tries"

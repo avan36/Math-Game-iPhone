@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		604E34042C6BDE82002E5796 /* DivisionGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604E34032C6BDE82002E5796 /* DivisionGame.swift */; };
+		604E34062C6BEF88002E5796 /* AppSwitcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604E34052C6BEF88002E5796 /* AppSwitcher.swift */; };
 		605721CC2C28F075002A102D /* Multiplication_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605721CB2C28F075002A102D /* Multiplication_TestApp.swift */; };
 		605721CE2C28F075002A102D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605721CD2C28F075002A102D /* ContentView.swift */; };
 		605721D02C28F077002A102D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 605721CF2C28F077002A102D /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		604E34032C6BDE82002E5796 /* DivisionGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionGame.swift; sourceTree = "<group>"; };
+		604E34052C6BEF88002E5796 /* AppSwitcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSwitcher.swift; sourceTree = "<group>"; };
 		605721C82C28F075002A102D /* Multiplication Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multiplication Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		605721CB2C28F075002A102D /* Multiplication_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiplication_TestApp.swift; sourceTree = "<group>"; };
 		605721CD2C28F075002A102D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +57,8 @@
 			children = (
 				605721CB2C28F075002A102D /* Multiplication_TestApp.swift */,
 				605721CD2C28F075002A102D /* ContentView.swift */,
+				604E34032C6BDE82002E5796 /* DivisionGame.swift */,
+				604E34052C6BEF88002E5796 /* AppSwitcher.swift */,
 				605721CF2C28F077002A102D /* Assets.xcassets */,
 				605721D12C28F077002A102D /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				605721CE2C28F075002A102D /* ContentView.swift in Sources */,
 				605721CC2C28F075002A102D /* Multiplication_TestApp.swift in Sources */,
+				604E34062C6BEF88002E5796 /* AppSwitcher.swift in Sources */,
+				604E34042C6BDE82002E5796 /* DivisionGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
