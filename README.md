@@ -1,7 +1,10 @@
 # Multiplication app for kids
 ### *Main Idea:* Create a fun, educational app for kids that allows them to quickly test their multiplication skills. Meant to be fast, pretty, and be simple.
 ## App in Use
-![Simulator Screen Recording - iPhone 15 Pro - 2024-06-24 at 02 06 48](https://github.com/avan36/Multiplication-Game-for-Kids-iPhone/assets/158532304/f0cf7a4e-9714-478e-85ba-7d9ce1cfa9d0)
+![trim 08C0BE1A-D01A-437C-ADF0-AC22F072F9A8](https://github.com/user-attachments/assets/738da32e-8f61-415c-89a6-4f2777ebdaf8)
+![trim 2AB13FC7-C4FC-4579-9B4C-8CBC14E8A35F](https://github.com/user-attachments/assets/3427ab80-2027-41e8-b05b-16303cf4a1a8)
+
+
 
 ## More Screenshots
 ### Dark Mode and Light Mode
