@@ -1,7 +1,9 @@
 # Multiplication app for kids
 ### *Main Idea:* Create a fun, educational app for kids that allows them to quickly test their multiplication skills. Meant to be fast, pretty, and be simple.
 ## App in Use
+### Multiplication
 ![trim 08C0BE1A-D01A-437C-ADF0-AC22F072F9A8](https://github.com/user-attachments/assets/738da32e-8f61-415c-89a6-4f2777ebdaf8)
+### Division
 ![trim 2AB13FC7-C4FC-4579-9B4C-8CBC14E8A35F](https://github.com/user-attachments/assets/3427ab80-2027-41e8-b05b-16303cf4a1a8)
 
 
