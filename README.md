@@ -14,6 +14,7 @@
 
 ## Division in depth
 The user needs to tap all the numbers that divide into the number at the top. For every wrong answer, they get -1 point, and for every right answer, they get +1 point. They cannot continue until all correct buttons have been pressed
+
 ![Simulator Screenshot - iPhone 15 Pro - 2024-08-16 at 15 19 28](https://github.com/user-attachments/assets/5233498f-116f-49e6-b582-5d3c6a66ae28)
 ![Simulator Screenshot - iPhone 15 Pro - 2024-08-16 at 15 19 35](https://github.com/user-attachments/assets/9935624d-d421-4c1d-8cc3-c59ca2486f5d)
 
