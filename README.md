@@ -1,4 +1,4 @@
-# Multiplication app
+# Addictive Math Game App + More!
 ### *Main Idea:* Create a fun, educational app allows people to test their multiplication/division skills. Meant to be fast, pretty, and be simple.
 
 ## Update – 28th September 2024: *Support for Word Definitions!*
