@@ -1,5 +1,6 @@
 # Multiplication app
 ### *Main Idea:* Create a fun, educational app allows people to test their multiplication/division skills. Meant to be fast, pretty, and be simple.
+## Updated 28th September 2024 w/ Support for Word Definitions!
 ## App in Use
 ### Multiplication
 ![trim 08C0BE1A-D01A-437C-ADF0-AC22F072F9A8](https://github.com/user-attachments/assets/738da32e-8f61-415c-89a6-4f2777ebdaf8)
