@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MultiplicationGameView: View {
     @State private var num1 = Int.random(in: 1..<10)
     @State private var num2 = Int.random(in: 1..<10)
     @State private var options = [0,0,0]
@@ -16,13 +16,15 @@ struct ContentView: View {
     @State private var tries = 0
     
     var body: some View {
-        NavigationView {
-            VStack{
+        NavigationStack() {
+                Spacer()
+                    
+            HStack {
                 Text("What's \(num1) multiplied by \(num2)?")
                     .font(.title)
-                    //.padding(.top)
+            }
                 
-                Spacer()
+                
                 
                 
                 ForEach(0..<3)  {number in
@@ -37,7 +39,7 @@ struct ContentView: View {
                     .background(.blue.opacity(0.7))
                     .clipShape(.rect(cornerRadius: 20))
                     .foregroundColor(.white)
-
+                    
                 }
                 Spacer()
                 
@@ -45,18 +47,19 @@ struct ContentView: View {
                      : tries > 1 ?
                      "Score: \(score) / \(tries) tries"
                      : "Score: \(score) / \(tries) try")
-                    .font(.headline)
-                    .padding()
+                .font(.headline)
+                
                 
                 
                 Spacer()
+                .frame(height: 20)
+                .navigationTitle("Multiplication!")
+                .onAppear {
+                    generateAnswers()
+                }
             }
-            .navigationTitle("Multiplication!")
-            .onAppear {
-                generateAnswers()
-            }
-        }
-        .padding()
+        
+            
     }
         
     func updateCorrectAnswer(_ tapped: Int) {
@@ -82,5 +85,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    MultiplicationGameView()
 }

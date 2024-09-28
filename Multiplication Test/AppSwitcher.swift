@@ -11,7 +11,7 @@ struct AppSwitcher: View {
     var body: some View {
         TabView {
             NavigationStack {
-                ContentView()
+                MultiplicationGameView()
                     .navigationTitle("Multiplication")
             }
             .tabItem {
@@ -24,6 +24,15 @@ struct AppSwitcher: View {
                 .tabItem {
                     Label("Division", systemImage: "divide.circle")
                 }
+            NavigationStack {
+                WordGameView()
+                    //.navigationTitle("Division")
+            }
+                .tabItem {
+                    Label("Definitions", systemImage: "book.closed.fill")
+                }
+            
+            
         }
     }
 }

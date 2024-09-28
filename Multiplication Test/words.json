@@ -1,0 +1,612 @@
+[
+    {
+        "word": "Serendipity",
+        "definition": "The occurrence and development of events by chance in a happy or beneficial way.",
+        "difficulty": 3
+    },
+    {
+        "word": "Ubiquitous",
+        "definition": "Found or occurring everywhere.",
+        "difficulty": 3
+    },
+    {
+        "word": "Ephemeral",
+        "definition": "Lasting for a very short time.",
+        "difficulty": 4
+    },
+    {
+        "word": "Quixotic",
+        "definition": "Idealistic but unrealistic.",
+        "difficulty": 4
+    },
+    {
+        "word": "Fortuitous",
+        "definition": "Happening by chance; lucky.",
+        "difficulty": 3
+    },
+    {
+        "word": "Disingenuous",
+        "definition": "Not sincere; crafty.",
+        "difficulty": 4
+    },
+    {
+        "word": "Melancholic",
+        "definition": "Sad; depressed.",
+        "difficulty": 4
+    },
+    {
+        "word": "Ethereal",
+        "definition": "Extremely delicate or light in a way that seems almost spiritual.",
+        "difficulty": 4
+    },
+    {
+        "word": "Euphoria",
+        "definition": "A feeling of intense excitement and happiness.",
+        "difficulty": 3
+    },
+    {
+        "word": "Contentious",
+        "definition": "Causing or likely to cause an argument.",
+        "difficulty": 4
+    },
+    {
+        "word": "Verisimilitude",
+        "definition": "The appearance of being true or real.",
+        "difficulty": 5
+    },
+    {
+        "word": "Sycophantic",
+        "definition": "Using flattery to get favor with someone.",
+        "difficulty": 4
+    },
+    {
+        "word": "Nefarious",
+        "definition": "Wicked or criminal.",
+        "difficulty": 4
+    },
+    {
+        "word": "Proclivity",
+        "definition": "A tendency or inclination.",
+        "difficulty": 4
+    },
+    {
+        "word": "Salient",
+        "definition": "Prominent; striking.",
+        "difficulty": 4
+    },
+    {
+        "word": "Antipathy",
+        "definition": "A strong dislike or aversion.",
+        "difficulty": 4
+    },
+    {
+        "word": "Indefatigable",
+        "definition": "Tireless; incapable of being fatigued.",
+        "difficulty": 5
+    },
+    {
+        "word": "Laconic",
+        "definition": "Using few words; concise.",
+        "difficulty": 4
+    },
+    {
+        "word": "Cacophony",
+        "definition": "A harsh, discordant mixture of sounds.",
+        "difficulty": 3
+    },
+    {
+        "word": "Obfuscate",
+        "definition": "To deliberately make something unclear or difficult to understand.",
+        "difficulty": 5
+    },
+    {
+        "word": "Sanguine",
+        "definition": "Optimistic or positive, especially in a difficult situation.",
+        "difficulty": 3
+    },
+    {
+        "word": "Lugubrious",
+        "definition": "Looking or sounding sad and dismal.",
+        "difficulty": 5
+    },
+    {
+        "word": "Inexorable",
+        "definition": "Impossible to stop or prevent; relentless.",
+        "difficulty": 4
+    },
+    {
+        "word": "Munificent",
+        "definition": "More generous than is usual or necessary.",
+        "difficulty": 4
+    },
+    {
+        "word": "Impetuous",
+        "definition": "Acting or done quickly and without thought or care.",
+        "difficulty": 4
+    },
+    {
+        "word": "Recalcitrant",
+        "definition": "Having an obstinately uncooperative attitude toward authority or discipline.",
+        "difficulty": 5
+    },
+    {
+        "word": "Benevolent",
+        "definition": "Well-meaning and kindly.",
+        "difficulty": 3
+    },
+    {
+        "word": "Cognizant",
+        "definition": "Having knowledge or being aware of.",
+        "difficulty": 4
+    },
+    {
+        "word": "Abstruse",
+        "definition": "Difficult to understand; obscure.",
+        "difficulty": 5
+    },
+    {
+        "word": "Epiphany",
+        "definition": "A moment of sudden revelation or insight.",
+        "difficulty": 3
+    },
+    {
+        "word": "Quintessential",
+        "definition": "Representing the most perfect or typical example of a quality or class.",
+        "difficulty": 4
+    },
+    {
+        "word": "Amalgamate",
+        "definition": "To combine or unite to form one organization or structure.",
+        "difficulty": 4
+    },
+    {
+        "word": "Disparate",
+        "definition": "Essentially different in kind; not allowing comparison.",
+        "difficulty": 4
+    },
+    {
+        "word": "Prosaic",
+        "definition": "Commonplace; unromantic; lacking poetic beauty.",
+        "difficulty": 4
+    },
+    {
+        "word": "Acrimonious",
+        "definition": "Angry and bitter in speech or tone.",
+        "difficulty": 4
+    },
+    {
+        "word": "Cognizance",
+        "definition": "Knowledge or awareness; especially in a legal context.",
+        "difficulty": 4
+    },
+    {
+        "word": "Pedantic",
+        "definition": "Excessively concerned with minor details or rules; overly scholarly.",
+        "difficulty": 4
+    },
+    {
+        "word": "Fastidious",
+        "definition": "Very attentive to detail; meticulous.",
+        "difficulty": 4
+    },
+    {
+        "word": "Prognosticate",
+        "definition": "To foretell or prophesy an event in the future.",
+        "difficulty": 5
+    },
+    {
+        "word": "Nostalgia",
+        "definition": "A sentimental longing for the past.",
+        "difficulty": 3
+    },
+    {
+        "word": "Paradoxical",
+        "definition": "Seemingly absurd or self-contradictory but in fact expressing a possible truth.",
+        "difficulty": 4
+    },
+    {
+        "word": "Idiosyncrasy",
+        "definition": "A mode of behavior or way of thought peculiar to an individual.",
+        "difficulty": 5
+    },
+    {
+        "word": "Reticent",
+        "definition": "Not revealing one's thoughts or feelings readily.",
+        "difficulty": 4
+    },
+    {
+        "word": "Soporific",
+        "definition": "Tending to induce drowsiness or sleep.",
+        "difficulty": 4
+    },
+    {
+        "word": "Truculent",
+        "definition": "Eager or quick to argue or fight; aggressively defiant.",
+        "difficulty": 4
+    },
+    {
+        "word": "Veracity",
+        "definition": "Conformity to facts; accuracy.",
+        "difficulty": 4
+    },
+    {
+        "word": "Bucolic",
+        "definition": "Relating to the pleasant aspects of the countryside and country life.",
+        "difficulty": 3
+    },
+    {
+        "word": "Esoteric",
+        "definition": "Intended for or likely to be understood by only a small number of people with specialized knowledge.",
+        "difficulty": 5
+    },
+    {
+        "word": "Lethargic",
+        "definition": "Affected by lethargy; sluggish and apathetic.",
+        "difficulty": 3
+    },
+    {
+        "word": "Untenable",
+        "definition": "Not able to be maintained or defended against attack or objection.",
+        "difficulty": 5
+    },
+    {
+        "word": "Zelophobic",
+        "definition": "Having an intense fear of jealousy or envious feelings.",
+        "difficulty": 5
+    },
+    {
+        "word": "Aberration",
+        "definition": "A departure from what is normal, usual, or expected, typically one that is unwelcome.",
+        "difficulty": 4
+    },
+    {
+        "word": "Alacrity",
+        "definition": "Brisk and cheerful readiness.",
+        "difficulty": 3
+    },
+    {
+        "word": "Anachronism",
+        "definition": "A thing belonging to a period other than that in which it exists.",
+        "difficulty": 5
+    },
+    {
+        "word": "Antithesis",
+        "definition": "A contrast or opposition between two things.",
+        "difficulty": 4
+    },
+    {
+        "word": "Cacophony",
+        "definition": "A harsh, discordant mixture of sounds.",
+        "difficulty": 3
+    },
+    {
+        "word": "Capitulate",
+        "definition": "To cease to resist an opponent or an unwelcome demand; surrender.",
+        "difficulty": 4
+    },
+    {
+        "word": "Chicanery",
+        "definition": "The use of trickery to achieve a political, financial, or legal purpose.",
+        "difficulty": 5
+    },
+    {
+        "word": "Deference",
+        "definition": "Respectful submission or yielding to the judgment, opinion, or will of another.",
+        "difficulty": 4
+    },
+    {
+        "word": "Ebullient",
+        "definition": "Cheerful and full of energy.",
+        "difficulty": 3
+    },
+    {
+        "word": "Egregious",
+        "definition": "Outstandingly bad; shocking.",
+        "difficulty": 4
+    },
+    {
+        "word": "Fastidious",
+        "definition": "Very attentive to detail; meticulous.",
+        "difficulty": 4
+    },
+    {
+        "word": "Garrulous",
+        "definition": "Excessively talkative, especially on trivial matters.",
+        "difficulty": 4
+    },
+    {
+        "word": "Implacable",
+        "definition": "Unable to be calmed down or made peaceful.",
+        "difficulty": 5
+    },
+    {
+        "word": "Inscrutable",
+        "definition": "Impossible to understand or interpret.",
+        "difficulty": 5
+    },
+    {
+        "word": "Juxtaposition",
+        "definition": "The fact of two things being seen or placed close together for contrasting effect.",
+        "difficulty": 4
+    },
+    {
+        "word": "Lethargy",
+        "definition": "A lack of energy and enthusiasm.",
+        "difficulty": 3
+    },
+    {
+        "word": "Nostalgic",
+        "definition": "Feeling sentimental about the past.",
+        "difficulty": 3
+    },
+    {
+        "word": "Ostensible",
+        "definition": "Stated or appearing to be true, but not necessarily so.",
+        "difficulty": 4
+    },
+    {
+        "word": "Quintessence",
+        "definition": "The most perfect or typical example of a quality or class.",
+        "difficulty": 4
+    },
+    {
+        "word": "Rancorous",
+        "definition": "Characterized by bitterness or resentment.",
+        "difficulty": 4
+    },
+    {
+        "word": "Sanguine",
+        "definition": "Optimistic or positive, especially in a difficult situation.",
+        "difficulty": 3
+    },
+    {
+        "word": "Taciturn",
+        "definition": "Reserved or uncommunicative in speech; saying little.",
+        "difficulty": 4
+    },
+    {
+        "word": "Unctuous",
+        "definition": "Excessively or ingratiatingly flattering; oily.",
+        "difficulty": 4
+    },
+    {
+        "word": "Voracious",
+        "definition": "Wanting or devouring great quantities of food.",
+        "difficulty": 3
+    },
+    {
+        "word": "Wistful",
+        "definition": "Having or showing a feeling of vague or regretful longing.",
+        "difficulty": 3
+    },
+    {
+        "word": "Zealous",
+        "definition": "Having or showing zeal; passionate.",
+        "difficulty": 3
+    },
+    {
+        "word": "Untenable",
+        "definition": "Not able to be maintained or defended against attack or objection.",
+        "difficulty": 5
+    },
+    {
+        "word": "Recondite",
+        "definition": "Little known; abstruse.",
+        "difficulty": 5
+    },
+    {
+        "word": "Parsimony",
+        "definition": "Extreme unwillingness to spend money or use resources.",
+        "difficulty": 5
+    },
+    {
+        "word": "Mendacious",
+        "definition": "Not telling the truth; lying.",
+        "difficulty": 5
+    },
+    {
+        "word": "Benevolent",
+        "definition": "Well-meaning and kindly.",
+        "difficulty": 2
+    },
+    {
+        "word": "Candid",
+        "definition": "Truthful and straightforward; frank.",
+        "difficulty": 2
+    },
+    {
+        "word": "Diligent",
+        "definition": "Showing care and effort in one's work or duties.",
+        "difficulty": 2
+    },
+    {
+        "word": "Empathy",
+        "definition": "The ability to understand and share the feelings of another.",
+        "difficulty": 2
+    },
+    {
+        "word": "Frugal",
+        "definition": "Sparing or economical with regard to money or food.",
+        "difficulty": 2
+    },
+    {
+        "word": "Joyful",
+        "definition": "Feeling, expressing, or causing great pleasure and happiness.",
+        "difficulty": 1
+    },
+    {
+        "word": "Meticulous",
+        "definition": "Showing great attention to detail; very careful and precise.",
+        "difficulty": 2
+    },
+    {
+        "word": "Proactive",
+        "definition": "Creating or controlling a situation rather than just responding to it.",
+        "difficulty": 2
+    },
+    {
+        "word": "Resilient",
+        "definition": "Able to withstand or recover quickly from difficult conditions.",
+        "difficulty": 2
+    },
+    {
+        "word": "Tangible",
+        "definition": "Perceptible by touch; clear and definite; real.",
+        "difficulty": 2
+    },
+    {
+        "word": "Belligerent",
+        "definition": "Hostile and aggressive.",
+        "difficulty": 3
+    },
+    {
+        "word": "Cursory",
+        "definition": "Hasty and therefore not thorough or detailed.",
+        "difficulty": 3
+    },
+    {
+        "word": "Emulate",
+        "definition": "To match or surpass (a person or achievement), typically by imitation.",
+        "difficulty": 3
+    },
+    {
+        "word": "Galvanize",
+        "definition": "To shock or excite someone into taking action.",
+        "difficulty": 4
+    },
+    {
+        "word": "Hypothetical",
+        "definition": "Based on or serving as a hypothesis; supposed but not necessarily real or true.",
+        "difficulty": 4
+    },
+    {
+        "word": "Inevitable",
+        "definition": "Certain to happen; unavoidable.",
+        "difficulty": 3
+    },
+    {
+        "word": "Mundane",
+        "definition": "Lacking interest or excitement; dull.",
+        "difficulty": 3
+    },
+    {
+        "word": "Obsolete",
+        "definition": "No longer produced or used; out of date.",
+        "difficulty": 3
+    },
+    {
+        "word": "Pragmatic",
+        "definition": "Dealing with things sensibly and realistically; practical.",
+        "difficulty": 4
+    },
+    {
+        "word": "Trepidation",
+        "definition": "A feeling of fear or agitation about something that may happen.",
+        "difficulty": 4
+    },
+    {
+      "word": "Ambivalent",
+      "definition": "Having mixed feelings or contradictory ideas about something or someone.",
+      "difficulty": 3
+    },
+    {
+      "word": "Cognizant",
+      "definition": "Having knowledge or being aware of.",
+      "difficulty": 4
+    },
+    {
+      "word": "Equanimity",
+      "definition": "Mental calmness, stability, or composure, especially in a difficult situation.",
+      "difficulty": 5
+    },
+    {
+      "word": "Fallacious",
+      "definition": "Based on a mistaken belief; misleading.",
+      "difficulty": 4
+    },
+    {
+      "word": "Iconoclast",
+      "definition": "A person who attacks or criticizes cherished beliefs or institutions.",
+      "difficulty": 5
+    },
+    {
+      "word": "Juxtaposition",
+      "definition": "The fact of two things being seen or placed close together for contrasting effect.",
+      "difficulty": 4
+    },
+    {
+      "word": "Kaleidoscope",
+      "definition": "A constantly changing pattern or sequence of elements.",
+      "difficulty": 4
+    },
+    {
+      "word": "Pernicious",
+      "definition": "Having a harmful effect, especially in a gradual or subtle way.",
+      "difficulty": 5
+    },
+    {
+      "word": "Quagmire",
+      "definition": "A situation from which it is difficult to escape; a swampy area.",
+      "difficulty": 4
+    },
+    {
+      "word": "Sycophant",
+      "definition": "A person who acts obsequiously toward someone important in order to gain advantage.",
+      "difficulty": 4
+    },
+    {
+      "word": "Tautology",
+      "definition": "The saying of the same thing twice in different words.",
+      "difficulty": 5
+    },
+    {
+      "word": "Ubiquity",
+      "definition": "The state of being everywhere at once; omnipresence.",
+      "difficulty": 4
+    },
+    {
+      "word": "Vicissitude",
+      "definition": "A change of circumstances or fortune, typically one that is unwelcome or unpleasant.",
+      "difficulty": 5
+    },
+    {
+      "word": "Wistful",
+      "definition": "Having or showing a feeling of vague or regretful longing.",
+      "difficulty": 3
+    },
+    {
+      "word": "Xenophobia",
+      "definition": "Dislike of or prejudice against people from other countries.",
+      "difficulty": 5
+    },
+    {
+      "word": "Zephyr",
+      "definition": "A gentle, mild breeze.",
+      "difficulty": 3
+    },
+    {
+      "word": "Antipathy",
+      "definition": "A strong feeling of dislike.",
+      "difficulty": 4
+    },
+    {
+      "word": "Brevity",
+      "definition": "Concise and exact use of words in writing or speech.",
+      "difficulty": 4
+    },
+    {
+      "word": "Conundrum",
+      "definition": "A confusing and difficult problem or question.",
+      "difficulty": 4
+    },
+    {
+      "word": "Dichotomy",
+      "definition": "A division or contrast between two things that are represented as being opposed or entirely different.",
+      "difficulty": 4
+    },
+    {
+      "word": "Ebullient",
+      "definition": "Cheerful and full of energy.",
+      "difficulty": 3
+    }
+  ]

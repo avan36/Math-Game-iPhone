@@ -29,29 +29,33 @@ struct DivisionGame: View {
         
     }
     var body: some View {
-        VStack(alignment: .leading) {
-        Text("Tap all the numbers that  \(mainNumber) is divisible by:")
+        NavigationStack {
+            VStack {
+            Text("Tap all the numbers that  \(mainNumber) is divisible by:")
                 .font(.title2)
-        LazyVGrid(columns: Array(repeating: GridItem(.flexible()), count: 3), spacing: 16) {
-            ForEach (0..<12) { index in
-                let number = index + 1
-                Button(action: {
-                    if userSelections[index] != true {
-                        userSelections[index].toggle()
-                        updateScore(for: index)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .multilineTextAlignment(.leading)
+                .padding()
+            LazyVGrid(columns: Array(repeating: GridItem(.flexible()), count: 3), spacing: 16) {
+                ForEach (0..<12) { index in
+                    let number = index + 1
+                    Button(action: {
+                        if userSelections[index] != true {
+                            userSelections[index].toggle()
+                            updateScore(for: index)
+                        }
+                        
+                    }) {
+                        Text(String(number))
+                            .font(.title2)
+                            .frame(maxWidth: .infinity, maxHeight: .infinity)
+                            .padding()
+                            .background(buttonColor(for: index))
+                            .clipShape(RoundedRectangle(cornerRadius: 20))
+                            .foregroundColor(.white)
                     }
-                    
-                }) {
-                    Text(String(number))
-                    .font(.title2)
-                    .frame(maxWidth: .infinity, maxHeight: .infinity)
-                    .padding()
-                    .background(buttonColor(for: index))
-                    .clipShape(RoundedRectangle(cornerRadius: 20))
-                    .foregroundColor(.white)
                 }
-            }
-            .frame(width: 100, height: 100)
+                .frame(width: 100, height: 100)
             }
             Spacer()
             HStack {
@@ -63,7 +67,6 @@ struct DivisionGame: View {
             
             Spacer()
             HStack {
-                Spacer()
                 Button(action: {
                     continueButton()
                 }) {
@@ -77,18 +80,25 @@ struct DivisionGame: View {
                     
                 }
                 .disabled(!continueAllowed)
-                Spacer()
             }
-            
+            Spacer()
+                    .frame(height: 20)
         }
-        .padding()
+            .navigationTitle("Division!")
+        }
+        
         .onAppear {
             userSelections[0] = true
         }
     }
     
     private func continueButton() {
+        
         mainNumber = Int.random(in: 30..<332)
+        while isPrime(mainNumber) {
+            print("Regenerated number")
+            mainNumber = Int.random(in: 30..<332)
+        }
         oldScore += score
         score = 0
         userSelections = Array(repeating: false, count: 12)
