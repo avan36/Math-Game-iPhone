@@ -1,5 +1,9 @@
-# Multiplication app
+# Addictive Math Game App + More!
 ### *Main Idea:* Create a fun, educational app allows people to test their multiplication/division skills. Meant to be fast, pretty, and be simple.
+
+## Update – 28th September 2024: *Support for Word Definitions!*
+![Simulator Screen Recording - iPhone 16 Pro Max - 2024-09-28 at 17 44 02](https://github.com/user-attachments/assets/49c184ac-079b-4299-9fc9-766ecdc5571b)
+
 ## App in Use
 ### Multiplication
 ![trim 08C0BE1A-D01A-437C-ADF0-AC22F072F9A8](https://github.com/user-attachments/assets/738da32e-8f61-415c-89a6-4f2777ebdaf8)
