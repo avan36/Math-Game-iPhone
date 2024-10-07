@@ -29,6 +29,7 @@
 		60132E9E2CA73FCC00E49425 /* sound-tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-tap.mp3"; sourceTree = "<group>"; };
 		6014222E2CA637F40043AB0B /* words.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = words.json; sourceTree = "<group>"; };
 		601422302CA638490043AB0B /* WordGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordGameView.swift; sourceTree = "<group>"; };
+		6041D4FF2CB37EFE00D7BBED /* Multiplication Test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Multiplication Test.entitlements"; sourceTree = "<group>"; };
 		604E34032C6BDE82002E5796 /* DivisionGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionGame.swift; sourceTree = "<group>"; };
 		604E34052C6BEF88002E5796 /* AppSwitcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSwitcher.swift; sourceTree = "<group>"; };
 		605721C82C28F075002A102D /* Multiplication Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multiplication Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +80,7 @@
 		605721CA2C28F075002A102D /* Multiplication Test */ = {
 			isa = PBXGroup;
 			children = (
+				6041D4FF2CB37EFE00D7BBED /* Multiplication Test.entitlements */,
 				605721CB2C28F075002A102D /* Multiplication_TestApp.swift */,
 				604E34032C6BDE82002E5796 /* DivisionGame.swift */,
 				608730592CA8A65F00DA105F /* KeyFunctions.swift */,
@@ -146,6 +148,8 @@
 				Base,
 			);
 			mainGroup = 605721BF2C28F075002A102D;
+			packageReferences = (
+			);
 			productRefGroup = 605721C92C28F075002A102D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -313,6 +317,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Multiplication Test/Multiplication Test.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Multiplication Test/Preview Content\"";
@@ -342,6 +347,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Multiplication Test/Multiplication Test.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Multiplication Test/Preview Content\"";

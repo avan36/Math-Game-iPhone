@@ -6,9 +6,13 @@
 //
 
 import SwiftUI
+import GameKit
+
+
 
 @main
 struct Multiplication_TestApp: App {
+    
     var body: some Scene {
         WindowGroup {
             AppSwitcher()
