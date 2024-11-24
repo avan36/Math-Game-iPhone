@@ -9,6 +9,7 @@ import SwiftUI
 
 struct WordGameView: View {
     @ObservedObject var viewModel = WordGameViewModel()
+    @AppStorage("wordGameHighScore") private var wordGameHighScore = 0
     var body: some View {
         
         NavigationStack { //spacing: 20
@@ -42,17 +43,22 @@ struct WordGameView: View {
                 }
                 Spacer()
                     .frame(height: 50)
-                Button("Next question") {
+                Button(action: {
                     viewModel.generateNewQuestion()
+                }) {
+                    Text("Next Question")
+                        .font(.headline)
+                        .padding()
+                        .frame(maxWidth: .infinity)
+                        .background(viewModel.answerSelected ? Color.blue.opacity(0.7) : Color.gray.opacity(0.4))
+                        .foregroundColor(.white)
+                        .cornerRadius(10)
                 }
                 .disabled(!viewModel.answerSelected)
-                .padding()
-                .background(viewModel.answerSelected ? Color.blue : Color.secondary)
-                .foregroundColor(.white)
-                .cornerRadius(10)
                 Spacer()
                     .frame(height: 30)
                 Text("Score: \(viewModel.score)")
+                
                 
                     .navigationTitle("Word matching!")
             }
@@ -75,6 +81,7 @@ class WordGameViewModel: ObservableObject {
     @Published var isCorrect: Bool? = nil
     @Published var answerSelected: Bool = false
     @Published var score = 0
+    @AppStorage("wordGameHighScore") private var wordGameHighScore = 0
     struct WordDefinition: Codable {
         let word: String
         let definition: String
@@ -132,6 +139,7 @@ class WordGameViewModel: ObservableObject {
             if word == correctAnswer {
                 playSound(sound: "sound-ding", type: "mp3")
                 score += 1
+                wordGameHighScore = max(score, wordGameHighScore)
                 answerSelected = true
             }
         }

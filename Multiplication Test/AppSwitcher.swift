@@ -12,6 +12,7 @@ struct AppSwitcher: View {
             NavigationStack {
                 MultiplicationGameView()
                     .navigationTitle("Multiplication")
+                    .environmentObject(GameCenterManager.shared)
             }
             .tabItem {
                 Label("Multiplication", systemImage: "multiply.circle")
@@ -19,6 +20,7 @@ struct AppSwitcher: View {
 
             NavigationStack {
                 DivisionGame()
+                    .environmentObject(GameCenterManager.shared)
             }
             .tabItem {
                 Label("Division", systemImage: "divide.circle")
@@ -26,10 +28,19 @@ struct AppSwitcher: View {
 
             NavigationStack {
                 WordGameView()
+                    .environmentObject(GameCenterManager.shared)
             }
             .tabItem {
                 Label("Definitions", systemImage: "book.closed.fill")
             }
+            NavigationStack {
+                SettingsView()
+                    .environmentObject(GameCenterManager.shared)
+            }
+            .tabItem {
+                Label("Settings", systemImage: "gear")
+            }
+            
         }
     }
 }
