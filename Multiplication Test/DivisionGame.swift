@@ -13,7 +13,6 @@ struct DivisionGame: View {
     @State private var oldScore = 0
     @State private var score = 0
     @State private var isAuthenticated = false
-    @AppStorage("divisionHighScore") private var divisionHighScore = 0
     
     private var correctAnswers: [Bool] {
         (1...12).map { mainNumber % $0 == 0 }
@@ -99,7 +98,6 @@ struct DivisionGame: View {
             mainNumber = Int.random(in: 30..<332)
         }
         oldScore += score
-        divisionHighScore = max(divisionHighScore, oldScore)
         submitScore(score: oldScore)
         score = 0
         userSelections = Array(repeating: false, count: 12)
@@ -148,8 +146,6 @@ struct DivisionGame: View {
     }
 }
 
-struct MyView_Previews: PreviewProvider {
-    static var previews: some View {
-        DivisionGame()
-    }
+#Preview {
+    DivisionGame()
 }

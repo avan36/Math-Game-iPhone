@@ -12,23 +12,14 @@
 		60132EA12CA73FCC00E49425 /* sound-rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 60132E9D2CA73FCC00E49425 /* sound-rise.mp3 */; };
 		60132EA22CA73FCC00E49425 /* sound-tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 60132E9E2CA73FCC00E49425 /* sound-tap.mp3 */; };
 		6014222F2CA637F40043AB0B /* words.json in Resources */ = {isa = PBXBuildFile; fileRef = 6014222E2CA637F40043AB0B /* words.json */; };
-		601422312CA638490043AB0B /* WordGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601422302CA638490043AB0B /* WordGame.swift */; };
+		601422312CA638490043AB0B /* WordGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601422302CA638490043AB0B /* WordGameView.swift */; };
 		604E34042C6BDE82002E5796 /* DivisionGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604E34032C6BDE82002E5796 /* DivisionGame.swift */; };
 		604E34062C6BEF88002E5796 /* AppSwitcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604E34052C6BEF88002E5796 /* AppSwitcher.swift */; };
 		605721CC2C28F075002A102D /* Multiplication_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605721CB2C28F075002A102D /* Multiplication_TestApp.swift */; };
-		605721CE2C28F075002A102D /* MultiplicationGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605721CD2C28F075002A102D /* MultiplicationGame.swift */; };
+		605721CE2C28F075002A102D /* MultiplicationGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605721CD2C28F075002A102D /* MultiplicationGameView.swift */; };
 		605721D02C28F077002A102D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 605721CF2C28F077002A102D /* Assets.xcassets */; };
 		605721D32C28F077002A102D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 605721D22C28F077002A102D /* Preview Assets.xcassets */; };
-		6063E8952CF16AC100ACB2B1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6063E8942CF16AC100ACB2B1 /* GoogleService-Info.plist */; };
-		6063E8982CF16B0200ACB2B1 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 6063E8972CF16B0200ACB2B1 /* FirebaseAnalytics */; };
 		6087305A2CA8A65F00DA105F /* KeyFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608730592CA8A65F00DA105F /* KeyFunctions.swift */; };
-		60BD86FD2CF16F5200084BFC /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 60BD86FC2CF16F5200084BFC /* FirebaseDatabase */; };
-		60BD87302CF170B700084BFC /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 60BD872F2CF170B700084BFC /* FirebaseDatabase */; };
-		60BD87322CF170B700084BFC /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 60BD87312CF170B700084BFC /* FirebaseFirestore */; };
-		60BD87342CF1856500084BFC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BD87332CF1856500084BFC /* SettingsView.swift */; };
-		60BD87362CF18F2300084BFC /* LeaderboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BD87352CF18F2300084BFC /* LeaderboardViewModel.swift */; };
-		60BD87382CF27E7200084BFC /* GameCenterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BD87372CF27E7200084BFC /* GameCenterManager.swift */; };
-		60BD873B2CF2A4E000084BFC /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BD873A2CF2A4E000084BFC /* Onboarding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,21 +28,16 @@
 		60132E9D2CA73FCC00E49425 /* sound-rise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-rise.mp3"; sourceTree = "<group>"; };
 		60132E9E2CA73FCC00E49425 /* sound-tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-tap.mp3"; sourceTree = "<group>"; };
 		6014222E2CA637F40043AB0B /* words.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = words.json; sourceTree = "<group>"; };
-		601422302CA638490043AB0B /* WordGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordGame.swift; sourceTree = "<group>"; };
+		601422302CA638490043AB0B /* WordGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordGameView.swift; sourceTree = "<group>"; };
 		6041D4FF2CB37EFE00D7BBED /* Multiplication Test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Multiplication Test.entitlements"; sourceTree = "<group>"; };
 		604E34032C6BDE82002E5796 /* DivisionGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionGame.swift; sourceTree = "<group>"; };
 		604E34052C6BEF88002E5796 /* AppSwitcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSwitcher.swift; sourceTree = "<group>"; };
-		605721C82C28F075002A102D /* QuickQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		605721C82C28F075002A102D /* Multiplication Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multiplication Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		605721CB2C28F075002A102D /* Multiplication_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiplication_TestApp.swift; sourceTree = "<group>"; };
-		605721CD2C28F075002A102D /* MultiplicationGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplicationGame.swift; sourceTree = "<group>"; };
+		605721CD2C28F075002A102D /* MultiplicationGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplicationGameView.swift; sourceTree = "<group>"; };
 		605721CF2C28F077002A102D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		605721D22C28F077002A102D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		6063E8942CF16AC100ACB2B1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		608730592CA8A65F00DA105F /* KeyFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyFunctions.swift; sourceTree = "<group>"; };
-		60BD87332CF1856500084BFC /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		60BD87352CF18F2300084BFC /* LeaderboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardViewModel.swift; sourceTree = "<group>"; };
-		60BD87372CF27E7200084BFC /* GameCenterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCenterManager.swift; sourceTree = "<group>"; };
-		60BD873A2CF2A4E000084BFC /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +45,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60BD87302CF170B700084BFC /* FirebaseDatabase in Frameworks */,
-				60BD87322CF170B700084BFC /* FirebaseFirestore in Frameworks */,
-				60BD86FD2CF16F5200084BFC /* FirebaseDatabase in Frameworks */,
-				6063E8982CF16B0200ACB2B1 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +72,7 @@
 		605721C92C28F075002A102D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				605721C82C28F075002A102D /* QuickQuiz.app */,
+				605721C82C28F075002A102D /* Multiplication Test.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,16 +82,14 @@
 			children = (
 				6041D4FF2CB37EFE00D7BBED /* Multiplication Test.entitlements */,
 				605721CB2C28F075002A102D /* Multiplication_TestApp.swift */,
-				605721CD2C28F075002A102D /* MultiplicationGame.swift */,
-				601422302CA638490043AB0B /* WordGame.swift */,
 				604E34032C6BDE82002E5796 /* DivisionGame.swift */,
-				60BD87332CF1856500084BFC /* SettingsView.swift */,
-				60BD873A2CF2A4E000084BFC /* Onboarding.swift */,
-				60BD87392CF296FD00084BFC /* Extension */,
-				6063E8942CF16AC100ACB2B1 /* GoogleService-Info.plist */,
+				608730592CA8A65F00DA105F /* KeyFunctions.swift */,
 				604E34052C6BEF88002E5796 /* AppSwitcher.swift */,
+				60132E9A2CA73F7500E49425 /* SoundPlayer.swift */,
 				60132E9F2CA73FCC00E49425 /* Sound */,
 				6014222E2CA637F40043AB0B /* words.json */,
+				605721CD2C28F075002A102D /* MultiplicationGameView.swift */,
+				601422302CA638490043AB0B /* WordGameView.swift */,
 				605721CF2C28F077002A102D /* Assets.xcassets */,
 				605721D12C28F077002A102D /* Preview Content */,
 			);
@@ -124,23 +104,12 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		60BD87392CF296FD00084BFC /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				60BD87352CF18F2300084BFC /* LeaderboardViewModel.swift */,
-				60BD87372CF27E7200084BFC /* GameCenterManager.swift */,
-				608730592CA8A65F00DA105F /* KeyFunctions.swift */,
-				60132E9A2CA73F7500E49425 /* SoundPlayer.swift */,
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		605721C72C28F075002A102D /* QuickQuiz */ = {
+		605721C72C28F075002A102D /* Multiplication Test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 605721D62C28F077002A102D /* Build configuration list for PBXNativeTarget "QuickQuiz" */;
+			buildConfigurationList = 605721D62C28F077002A102D /* Build configuration list for PBXNativeTarget "Multiplication Test" */;
 			buildPhases = (
 				605721C42C28F075002A102D /* Sources */,
 				605721C52C28F075002A102D /* Frameworks */,
@@ -150,9 +119,9 @@
 			);
 			dependencies = (
 			);
-			name = QuickQuiz;
+			name = "Multiplication Test";
 			productName = "Multiplication Test";
-			productReference = 605721C82C28F075002A102D /* QuickQuiz.app */;
+			productReference = 605721C82C28F075002A102D /* Multiplication Test.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -180,13 +149,12 @@
 			);
 			mainGroup = 605721BF2C28F075002A102D;
 			packageReferences = (
-				6063E8962CF16B0200ACB2B1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = 605721C92C28F075002A102D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				605721C72C28F075002A102D /* QuickQuiz */,
+				605721C72C28F075002A102D /* Multiplication Test */,
 			);
 		};
 /* End PBXProject section */
@@ -201,7 +169,6 @@
 				605721D02C28F077002A102D /* Assets.xcassets in Resources */,
 				60132EA02CA73FCC00E49425 /* sound-ding.mp3 in Resources */,
 				60132EA12CA73FCC00E49425 /* sound-rise.mp3 in Resources */,
-				6063E8952CF16AC100ACB2B1 /* GoogleService-Info.plist in Resources */,
 				60132EA22CA73FCC00E49425 /* sound-tap.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,17 +180,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60BD87362CF18F2300084BFC /* LeaderboardViewModel.swift in Sources */,
-				60BD87342CF1856500084BFC /* SettingsView.swift in Sources */,
 				60132E9B2CA73F7700E49425 /* SoundPlayer.swift in Sources */,
-				605721CE2C28F075002A102D /* MultiplicationGame.swift in Sources */,
+				605721CE2C28F075002A102D /* MultiplicationGameView.swift in Sources */,
 				605721CC2C28F075002A102D /* Multiplication_TestApp.swift in Sources */,
-				60BD873B2CF2A4E000084BFC /* Onboarding.swift in Sources */,
 				604E34062C6BEF88002E5796 /* AppSwitcher.swift in Sources */,
 				604E34042C6BDE82002E5796 /* DivisionGame.swift in Sources */,
 				6087305A2CA8A65F00DA105F /* KeyFunctions.swift in Sources */,
-				60BD87382CF27E7200084BFC /* GameCenterManager.swift in Sources */,
-				601422312CA638490043AB0B /* WordGame.swift in Sources */,
+				601422312CA638490043AB0B /* WordGameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,7 +324,6 @@
 				DEVELOPMENT_TEAM = D236F46CG8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = QuickQuiz;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -392,7 +354,6 @@
 				DEVELOPMENT_TEAM = D236F46CG8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = QuickQuiz;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -423,7 +384,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		605721D62C28F077002A102D /* Build configuration list for PBXNativeTarget "QuickQuiz" */ = {
+		605721D62C28F077002A102D /* Build configuration list for PBXNativeTarget "Multiplication Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				605721D72C28F077002A102D /* Debug */,
@@ -433,38 +394,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		6063E8962CF16B0200ACB2B1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 11.5.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		6063E8972CF16B0200ACB2B1 /* FirebaseAnalytics */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 6063E8962CF16B0200ACB2B1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalytics;
-		};
-		60BD86FC2CF16F5200084BFC /* FirebaseDatabase */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 6063E8962CF16B0200ACB2B1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseDatabase;
-		};
-		60BD872F2CF170B700084BFC /* FirebaseDatabase */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = FirebaseDatabase;
-		};
-		60BD87312CF170B700084BFC /* FirebaseFirestore */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = FirebaseFirestore;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 605721C02C28F075002A102D /* Project object */;
 }
