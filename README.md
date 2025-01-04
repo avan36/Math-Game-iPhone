@@ -1,6 +1,13 @@
 # Addictive Math Game App + More!
 ### *Main Idea:* Create a fun, educational app allows people to test their multiplication/division skills. Meant to be fast, pretty, and be simple.
 
+## Update – 2nd January 2025: *Leaderboards and color!*
+<div>
+<img src= "https://github.com/avan36/Math-Game-iPhone/blob/main/MultiplicationView.PNG?raw=true" width="250">
+<img src = "https://github.com/avan36/Math-Game-iPhone/blob/main/DivisionView.PNG?raw=true" width="250">
+<img src = "https://github.com/avan36/Math-Game-iPhone/blob/main/WordView.PNG?raw=true5" width="250">
+</div>
+
 ## Update – 28th September 2024: *Support for Word Definitions!*
 ![Simulator Screen Recording - iPhone 16 Pro Max - 2024-09-28 at 17 44 02](https://github.com/user-attachments/assets/49c184ac-079b-4299-9fc9-766ecdc5571b)
 
