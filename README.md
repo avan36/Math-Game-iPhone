@@ -8,6 +8,14 @@
 <img src = "https://github.com/avan36/Math-Game-iPhone/blob/main/WordView.PNG?raw=true5" width="250">
 </div>
 
+### Leaderboard & Adding Friends
+<div>
+<img src = "https://github.com/avan36/Math-Game-iPhone/blob/main/IMG_8652.PNG?raw=true" width="250">
+<img src = "https://github.com/avan36/Math-Game-iPhone/blob/9b5f661d39782f532b6310ba2d15ca2547a19e44/AddingFriendGif.GIF" width="250">
+<img src = "https://github.com/avan36/Math-Game-iPhone/blob/main/AddingFriendSuggestion.PNG?raw=true" width="250">
+<img src = "https://github.com/avan36/Math-Game-iPhone/blob/main/AddedFriendVie.PNG?raw=true" width="250">
+</div>
+
 ## Update – 28th September 2024: *Support for Word Definitions!*
 ![Simulator Screen Recording - iPhone 16 Pro Max - 2024-09-28 at 17 44 02](https://github.com/user-attachments/assets/49c184ac-079b-4299-9fc9-766ecdc5571b)
 
